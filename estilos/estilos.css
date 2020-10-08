@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: hsl(210, 46%, 95%);
+    font-size: 13px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container{
+    width: 55%;
+    background: #fff;
+    display: flex;
+    align-content: flex-start;
+    border-radius: 15px;
+    margin: 0 auto;
+    position: fixed;
+    top: 22.5%;
+    right: 22.5%;
+}
+
+/*ESTILOS DEL HEADER*/
+
+header{
+    width: 100%;
+    overflow: hidden;
+}
+header img{
+    width: 120%;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+}
+
+/*ESTILOS DE CONTENIDO*/
+
+.contenido{
+    padding: 5%;
+    box-sizing: border-box;
+    padding-bottom: 3%;
+}
+.contenido article{
+    line-height: 2em;
+}
+
+.contenido article h1{
+    font-weight: 600;
+    font-size: 1.8em;
+    margin-bottom: 3%;
+    color:hsl(217, 19%, 35%) ;
+}
+
+.contenido article p{
+    font-size: 1.2em;
+    color: hsl(214, 17%, 51%);
+    line-height: 1.4em;
+}
+/*ESTILOS DEL FOOTER*/
+footer{
+position: relative;
+    box-sizing: border-box;
+    margin-top: 4%;
+}
+
+footer picture{
+    float: left;
+    width: 10%;
+
+}
+
+footer picture img{
+    width: 100%;
+    border-radius: 100%;
+}
+footer span{
+    color:hsl(217, 19%, 35%) ;
+    font-weight: bold;
+    top: 3px;
+    position: absolute;
+    margin-left: 10px;
+}
+footer span p{
+    color:  hsl(214, 17%, 51%);
+    font-weight: lighter;
+}
+footer a{
+    top: 8px;
+    right: 20px;
+    position: absolute;
+    /*margin-left: 60.1%;*/
+    align-self: center;
+}
+footer a:link, footer a:visited{
+    background: hsl(210, 46%, 95%);
+    padding: 1.5%;
+    border-radius: 60%;
+}

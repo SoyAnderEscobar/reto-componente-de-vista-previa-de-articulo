@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
+  <link rel="stylesheet" href="estilos/estilos.css">
+
   <title>Frontend Mentor | Article preview component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,22 +17,46 @@
   </style>
 </head>
 <body>
+  <div class="container">
+    <header>
+      <img src="images/drawers.jpg" alt="Imagen principal de cajones">
+    </header>
 
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
+    <div class="contenido">
+      <section>
+        <article><h1>Shift the overall look and feel by adding these wonderful
+          touches to furniture in your home</h1>
+          <p>Ever been in a room and felt like something was missing? Perhaps
+            it felt slightly bare and uninviting. I’ve got some simple tips
+            to help you make any room feel complete.</p>
+        </article>
+      </section>
 
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
+      <footer>
+        <picture>
+          <img src="images/avatar-michelle.jpg" alt="avatar">
+        </picture>
+        <span>
+          Michelle Appletonp
+          <p>28 Jun 2020</p>
+        </span>
+        <a href="#" onclick="alerta()"><img src="images/icon-share.svg" alt=""></a>
 
-  Michelle Appleton
-  28 Jun 2020
-
-  Share
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      </footer>
+    </div>
   </div>
+
+  <!--<div class="footer">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Anderson Escobar</a>.
+  </div>-->
+
+  <script src="https://kit.fontawesome.com/1db2702c51.js" crossorigin="anonymous"></script>
+  <script>
+    function alerta(){
+      alert("hola Mundo")
+    }
+  </script>
 </body>
 </html>
+
